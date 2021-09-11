@@ -1,14 +1,6 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+<h1>Zora Wan's Data Structure Projects</h1>
 
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+* Week 1 project: Convert 10 links in a javascript file to txt files.
+  * For 10 txt files: (https://github.com/zorawan/DataStructures/tree/master/week1/data).
+  * For the js file: (https://github.com/zorawan/DataStructures/blob/master/week1/week1.js).
+* Week 2 project: Parse (https://github.com/zorawan/DataStructures/blob/master/week1/data/m03.txt) to get all the address.
