@@ -10,14 +10,6 @@ var content = fs.readFileSync('../week1/data/m03.txt');
 // load `content` into a cheerio object
 var $ = cheerio.load(content);
 
-// print (to the console) names of thesis students
-
-//$('tbody')
-    //.children()
-   // .each(function (index, element) {
-        //console.log($(element).children().first().text());
-        //$("h4, b, div, span, a, br").remove();
-  //  });
 
 var address = '';
 $('tbody')
