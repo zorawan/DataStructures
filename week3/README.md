@@ -1,5 +1,5 @@
 ## Week3 Project
-1.  Create a Texas A$M GeoServices account and use dotenv to save the API key.
+1.  Create a Texas A&M GeoServices account and use dotenv to save the API key.
 2.  Work on Starter code to require API by my [addressBook.txt](https://github.com/zorawan/DataStructures/blob/master/week2/addressBook.txt)
    * Step1: Pplit address to each address
 
