@@ -4,3 +4,4 @@
   * For 10 txt files: (https://github.com/zorawan/DataStructures/tree/master/week1/data).
   * For the js file: (https://github.com/zorawan/DataStructures/blob/master/week1/week1.js).
 * Week 2 project: Parse (https://github.com/zorawan/DataStructures/blob/master/week1/data/m03.txt) to get all the address.
+* Week 3 project: Convert my addressBook.txt to a jason file. 
