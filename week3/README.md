@@ -5,7 +5,7 @@
 ```javascript
   var array = data.split("\n");
 ```
-   * Step2: Split address by , and keep only first part of the address then map to var addresses
+  * Step2: Split address by , and keep only first part of the address then map to var addresses
 ```javascript
   addresses = array.map(item => item.split(",")[0]);
   console.log(addresses);
