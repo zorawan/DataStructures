@@ -22,7 +22,10 @@ function loadApi() {}
 ```
 
 3. Call the api by the starter code and format it into json format.
-  * Step1: After parse the api request, I tamuGeo and it's key and values to construct a new data structure.
+  * Step1: After parse the api request, I create a format variable to store content as a jason format.
+  * Step2: After review the json file, I decide I want to get the values from the key InputAddress then > StreetAddress, then add it into format.
+  * Step3: Create a valuble latLong and store Latitude and Longitude information in the same way.
+  * Step4: Write the latlong into format and combine two pieces of information.
 
 ```javascript
  (async () => {
