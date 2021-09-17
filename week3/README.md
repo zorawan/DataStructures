@@ -22,7 +22,7 @@ function loadApi() {}
 ```
 
 3. Call the api by the starter code and format it into json format.
-   * Step1: After parse the api request, I tamuGeo and it's key and values to construct a new data structure.
+  * Step1: After parse the api request, I tamuGeo and it's key and values to construct a new data structure.
 
 ```javascript
  (async () => {
