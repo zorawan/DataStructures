@@ -58,7 +58,7 @@ function loadApi() {
         		var latLong ={};
         		latLong.Latitude = tamuGeo["OutputGeocodes"][0]["OutputGeocode"]["Latitude"];
         		latLong.Longitude = tamuGeo["OutputGeocodes"][0]["OutputGeocode"]["Longitude"];
-        	    format.latong = latLong;
+        	    format.latLong = latLong;
             
             	meetingsData.push(format);
         	} catch (error) {
