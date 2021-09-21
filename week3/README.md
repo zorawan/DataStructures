@@ -1,11 +1,14 @@
 ## Week3 Project
+
 1.  Create a Texas A&M GeoServices account and use dotenv to save the API key.
 2.  Work on Starter code to require API by my [addressBook.txt](https://github.com/zorawan/DataStructures/blob/master/week2/addressBook.txt)
+3.  
    * Step1: Pplit address to each address
 
 ```javascript
   var array = data.split("\n");
 ```
+
 
    * Step2: Split address by , and keep only first part of the address then map to var addresses
 
@@ -15,11 +18,13 @@
   loadApi();
 ```
 
+
    * Step3: I put everything in loadApi function to make sure the api call runs after the txt file been read.
 
 ```javascript
 function loadApi() {}
 ```
+
 
 3. Call the api by the starter code and format it into json format.
   * Step1: After parse the api request, I create a format variable to store content as a jason format.
