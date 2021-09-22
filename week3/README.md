@@ -3,7 +3,7 @@
 1.  Create a Texas A&M GeoServices account and use dotenv to save the API key.
 2.  Work on Starter code to require API by my [addressBook.txt](https://github.com/zorawan/DataStructures/blob/master/week2/addressBook.txt)
 3.  
-   * Step1: Pplit address to each address
+   * Step1: Split address to each address
 
 ```javascript
   var array = data.split("\n");
