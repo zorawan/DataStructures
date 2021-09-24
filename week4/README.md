@@ -1,12 +1,12 @@
-### Week4 Assignment: Use Normalized Data Model to store the data from AA meeting website.
+## Week4 Assignment: Use Normalized Data Model to store the data from AA meeting website.
 
-#### Meeting Data with Hierarchical Model.png
+### Meeting Data with Hierarchical Model.png
 * This drawing shows the model I used to store the dataset. I use normalized data model which I think is a hierarchical model to store the dataset.
 
-#### Meeting Data with COMN Model.png
+### Meeting Data with COMN Model.png
 * I practice the method which introduced in Holes book Chapter 16. I used the employee data table as a template to create a COMN model for AA meeting dataset.
 
-#### Data Structure 4.1 - AA Database.xlsx
+### Data Structure 4.1 - AA Database.xlsx
 I use one table to show all the data listed in the html with the same hierarchy I draw in the Meeting [Data with Hierarchical Model.png](https://github.com/zorawan/DataStructures/blob/master/week4/1_Meeting%20Data%20with%20Hierarchical%20Model.png)
 
 ###### Reason to use ONE table
