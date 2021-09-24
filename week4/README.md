@@ -17,3 +17,5 @@ However, the dataset from AA meeting website doesn't have a flat model has only 
 
 ###### A treatment for text format
 Besides location, date, and time, a lot of information are described as text (sentence), without formatting. So I conver these information such as schedule condition, meeting detail into a hierarchical format. I think in this way, front-end developers can easiy grabe the data and have fiexbility to show meaningful, useful content to users.
+
+* Reference: [6 Database Schema Designs and How to Use Them](https://www.xplenty.com/blog/database-schema-examples/#two)
