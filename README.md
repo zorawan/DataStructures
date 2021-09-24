@@ -18,3 +18,5 @@
     * Use split()[] to find an item
     * wrap code in a function to arrage the sequence.
     * Find values by key in json by using ["key"] and [number]
+
+### Week 4 project: Store AA Meeting data as an excle using Normalized Data Model.
