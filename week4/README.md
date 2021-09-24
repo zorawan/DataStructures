@@ -7,7 +7,7 @@
 * I practice the method which introduced in Holes book Chapter 16. I used the employee data table as a template to create a COMN model for AA meeting dataset.
 
 ### Data Structure 4.1 - AA Database.xlsx
-* I use one table to show all the data listed in the html with the same hierarchy I draw in the Meeting [Data with Hierarchical Model.png](https://github.com/zorawan/DataStructures/blob/master/week4/1_Meeting%20Data%20with%20Hierarchical%20Model.png)
+* I use one table to show all the data listed in the html with the same hierarchy I draw in the Meeting [Data with Hierarchical Model.png](https://docs.google.com/spreadsheets/d/1GPku3HKI_obj9pSHk-Y6Eeh-j6eaFt1yUn73P_MWWx0/edit#gid=0)
 
 ###### Reason to use ONE table
 The AA meeting website is a small, simple website which doesn't have many data compared to other trending morden website. So to get data easily, I think it is better to store everything in one place.
