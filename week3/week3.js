@@ -62,7 +62,7 @@ function loadApi() {
             
             	meetingsData.push(format);
         	} catch (error) {
-        		console.log(error.response.body);
+        		//console.log(error.response.body);
         	}
         })();
     
