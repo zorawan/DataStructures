@@ -10,7 +10,9 @@
 
 ### Week 4.2
 * I learned the SQL syntax to CREATE, DROP, INSERT INTO, and SELECT a table.
-* The w4_a.js shows the way to create a table; the w4_b.js shows the way to insert information into a table; and the w4_c.js shows the way to select then view a table. 
+* The w4_a.js shows the way to create a table
 * [w4_a.js](https://github.com/zorawan/DataStructures/blob/master/week4/w4_a.js)
+* The w4_b.js shows the way to insert information into a table.
 * [w4_b.js](https://github.com/zorawan/DataStructures/blob/master/week4/w4_b.js)
+* The w4_c.js shows the way to select then view a table. 
 * [w4_c.js](https://github.com/zorawan/DataStructures/blob/master/week4/w4_c.js)
