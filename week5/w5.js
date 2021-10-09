@@ -41,7 +41,7 @@ AWS.config.region = "us-east-1";
 
 for (var i=0; i< blogEntries.length; i++){
 var params = {};
-params.Item = blogEntries[1]; 
+params.Item = blogEntries[i]; 
 params.TableName = "processblog";
 
 var dynamodb = new AWS.DynamoDB();
