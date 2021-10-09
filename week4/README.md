@@ -1,18 +1,22 @@
-## Week4 Assignment: Use Normalized Data Model to store the data from AA meeting website.
+# Zora Wan's Data Structure Projects
 
-### Meeting Data with Hierarchical Model.png
-* This drawing shows the model I used to store the dataset. I use normalized data model which I think is a hierarchical model to store the dataset.
+### Week 1 project: Convert 10 links in a javascript file to txt files.
+  * Introduced to async
+  * Use for loop to run the 10 htmls and use writeFileSync to txt files.
 
-###### Introduced hierarchy
-The dataset from AA meeting website doesn't have a flat model has only two dementions. So, I introduced a hierarchy structure to show the dataset. Witch a root node on top, website builder can access the data types following through the hierarcy. 
+ ### Week 2 project: Base on my student ID, I parse [m03.txt](https://github.com/zorawan/DataStructures/blob/master/week1/data/m03.txt) to get all the address in the file.
+  * By studying the HTML files, I learn how the html structure looks like and be able to pull the data from it.
+  * takeaway:
+    * Use children to target html tags.
+    * Use remove() to remove html tags.
+    * Use if(line.length >0) to check if the line is empty.
+    * Use slice() to remove last extra line in the file.
+     
+### Week 3 project: Convert my addressBook.txt to a jason file.
+  * By parsing the txt file, I learned to use split(), create json format and learned to use function to arrange the code to run in a correct sequence. 
+  * takeaway:
+    * Use split()[] to find an item
+    * wrap code in a function to arrage the sequence.
+    * Find values by key in json by using ["key"] and [number]
 
-### Meeting Data with COMN Model.png
-* I practice the method which introduced in Holes book Chapter 16. I used the employee data table as a template to create a COMN model for AA meeting dataset.
-
-### Data Structure 4.1 - AA Database.xlsx
-* I use 5 tables to show the FK listed in the COMN Model with the same hierarchy I draw in the Meeting [Data with Hierarchical Model.png](https://docs.google.com/spreadsheets/d/1GPku3HKI_obj9pSHk-Y6Eeh-j6eaFt1yUn73P_MWWx0/edit#gid=0)
-
-###### A treatment for text format
-Besides location, date, and time, a lot of information are described as text (sentence), without formatting. So I conver these information such as schedule condition, meeting detail into a hierarchical format. I think in this way, front-end developers can easiy grabe the data and have fiexbility to show meaningful, useful content to users.
-
-* Reference: [6 Database Schema Designs and How to Use Them](https://www.xplenty.com/blog/database-schema-examples/#two)
+### Week 4 project: Store AA Meeting data as an excle using Normalized Data Model.
