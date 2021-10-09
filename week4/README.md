@@ -6,5 +6,5 @@
 * The whole structure can also be seem as a node structure: 
 ![1_Meeting Data with Hierarchical Model](https://user-images.githubusercontent.com/6037803/136643369-8687d90b-a1b3-4cc7-aabe-0c436767ee59.png)
 * I use tables to store the inforamtion in each node.
-** [Link to the table](https://github.com/zorawan/DataStructures/blob/master/week4/3_Data%20Structure%204.1%20-%20AA%20Database.xlsx)
+[Link to the table](https://github.com/zorawan/DataStructures/blob/master/week4/3_Data%20Structure%204.1%20-%20AA%20Database.xlsx)
 
