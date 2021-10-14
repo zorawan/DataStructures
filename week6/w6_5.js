@@ -5,26 +5,20 @@ AWS.config.region = "us-east-1";
 
 var dynamodb = new AWS.DynamoDB();
 
-// var params = {
-//     TableName : "processblog",
-//     KeyConditionExpression: "pk GE :minKey",
-//     ExpressionAttributeValues: {
-//       // ":bk": "Data",
-//       ":minKey": {N: "1"}
-
-//     }
-// };
-
 var params = {
-    TableName : "processblog",
-    KeyConditionExpression: "pk = :ppk",
+    TableName : "bookList",
+    KeyConditionExpression: "book = :book and begins_with(booksName, :beginsWith)", // the query expression
     // ExpressionAttributeNames: { // name substitution, used for reserved words in DynamoDB
-    //     "#tp" : "pk"
+    //     "#tp" : "topic"
     // },
     ExpressionAttributeValues: { // the query values
-        ":ppk": {N: "*"},
+        ":book": {S: "book"},
+        ":beginsWith":{"S":"T"}
+        // ":minYear": {N: new Date("2016").valueOf().toString()},
+        // ":maxYear": {N: new Date("2020").valueOf().toString()}
     }
 };
+
 
 dynamodb.query(params, function(err, data) {
     if (err) {
