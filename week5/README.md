@@ -14,14 +14,14 @@
   
 ### 5.2
 * In this section, I learned how to create a DynamoDB table by suing the javascript starter code. By using the class function, I can create a format to store content for an object.
-* I updated the starter code to store my book list as shown below:
+* I updated the starter code to store my book list as shown below, I used book as the partition key and booksName as sort key:
 ```javascript
 class BlogEntry {
-  constructor(primaryKey, book, pYear, author, description, rate, rYear, like, comment) {
-    this.pk = {};
-    this.pk.N = primaryKey.toString();
+  constructor(book, booksName, pYear, author, description, rate, rYear, like, comment) {
     this.book = {};
     this.book.S = book;
+    this.booksName = {};
+    this.booksName.S = booksName;
     this.pYear = {}; 
     this.pYear.S = new Date(pYear).getYear().toString();
     this.author = {};
@@ -56,4 +56,4 @@ dynamodb.putItem(params, function (err, data) {
 }
 ```
 * For the result, it shows up in the DynamoDB table:
-<img width="1349" alt="3_DynamoDB_table" src="https://user-images.githubusercontent.com/6037803/136670045-0da4a2d5-2b3c-45c8-817a-25165b72ef2e.png">
+<img width="1041" alt="5_2DynamoDB" src="https://user-images.githubusercontent.com/6037803/137336776-57b1a4c6-3114-4816-993e-fae359164c8f.png">
