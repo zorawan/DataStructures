@@ -17,6 +17,8 @@ address
 208 W 13TH ST New York NY 
 ```
 * I use LIKE instead of = to get the result, because the keyword I used for query is not equal to the address itself.
-
+```javascript
+var thisQuery = "SELECT address FROM aalocations WHERE address LIKE '%13TH ST%';";
+```
 ### Part 2 - Query for my Book List data DynamoDB
 * I Created two tables in DynamoDB which I set the pirmery key as number and string.
