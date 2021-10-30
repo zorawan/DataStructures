@@ -16,7 +16,7 @@ client.connect();
 
 // Sample SQL statement to query the entire contents of a table: 
 var thisQuery = "SELECT * FROM aalocations;";
-
+// WHERE title ='THE 12th STREET WORKSHOP'
 client.query(thisQuery, (err, res) => {
     console.log(err, res.rows);
     client.end();
