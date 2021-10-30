@@ -10,7 +10,6 @@ var content = fs.readFileSync('../week1/data/m03.txt');
 // load `content` into a cheerio object
 var $ = cheerio.load(content);
 
-
 var address = '';
 $('tbody')
     .children()

@@ -6,14 +6,16 @@ AWS.config.region = "us-east-1";
 var dynamodb = new AWS.DynamoDB();
 
 var params = {
-    TableName : "bookList",
-    KeyConditionExpression: "book = :book and begins_with(booksName, :beginsWith)", // the query expression
+    TableName : "myBooks",
+    KeyConditionExpression: "rYear = :rYear and begins_with(book, :beginsWith)", // 
+    
+    //the query expression
     // ExpressionAttributeNames: { // name substitution, used for reserved words in DynamoDB
     //     "#tp" : "topic"
     // },
     ExpressionAttributeValues: { // the query values
-        ":book": {S: "book"},
-        ":beginsWith":{"S":"T"}
+        ":rYear": {S: "121"},
+        ":beginsWith":{"S":"N"}
         // ":minYear": {N: new Date("2016").valueOf().toString()},
         // ":maxYear": {N: new Date("2020").valueOf().toString()}
     }
