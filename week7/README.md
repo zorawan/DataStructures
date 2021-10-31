@@ -29,7 +29,7 @@ var Title = $(element).find('td')
         meeting.Title = Title;
 ```
 
-    * Meeting Building
+   * Meeting Building
 ```javascript
 var Building = $(element).find('h4').text()
                 .trim()
@@ -38,7 +38,7 @@ var Building = $(element).find('h4').text()
         meeting.Building = Building;
 ```
 
-    * Meeting Detail
+   * Meeting Detail
 ```javascript
 var MeetingDetail = $(element).find('div')
                             .addClass( "detailsBox" )
@@ -47,7 +47,7 @@ var MeetingDetail = $(element).find('div')
                              .replace(/(\r\n|\n|\r|\t)/gm, '');
         meeting.MeetingDetail = MeetingDetail;
 ```
-    * Weelchair
+   * Weelchair
 ```javascript
 var Wheelchair = $(element).find('span').text()
                 .trim()
@@ -55,7 +55,7 @@ var Wheelchair = $(element).find('span').text()
         meeting.Wheelchair = Wheelchair;
 ```
 
-    * Address
+   * Address
 ```javascript
 var Address = $(element).find('td')
                 .first().html().split("<br>")[2]
@@ -67,7 +67,7 @@ var Address = $(element).find('td')
             meeting.Address = Address;
 ```
 
-    * Address Detail
+   * Address Detail
 ```javascript
 var AddressDetail = $(element).find('td')
                 .first().html().split("<br>")[3]
