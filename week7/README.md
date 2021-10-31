@@ -121,6 +121,7 @@ var AddressDetail = $(element).find('td')
  ```javascript
  var entry = {};
 ```
+Then I rewrite all the meeting information in to the entry:
 ```javascript
               entry = {
             		    
