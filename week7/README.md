@@ -15,7 +15,7 @@ var thisQuery = "INSERT INTO aalocations VALUES (E'" + value.Title.replace("'","
 * By suing the week2 starter code, I read 10 txt files and file each elements one by one. Then use fs.writeFileSync to store it in to a json.
 * My way to get each element:
 
-* * Meeting Title
+  * Meeting Title
 ```javascript
 var Title = $(element).find('td')
                 .first()
@@ -29,7 +29,7 @@ var Title = $(element).find('td')
         meeting.Title = Title;
 ```
 
-* * Meeting Building
+  * Meeting Building
 ```javascript
 var Building = $(element).find('h4').text()
                 .trim()
@@ -38,7 +38,7 @@ var Building = $(element).find('h4').text()
         meeting.Building = Building;
 ```
 
-* * Meeting Detail
+  * Meeting Detail
 ```javascript
 var MeetingDetail = $(element).find('div')
                             .addClass( "detailsBox" )
@@ -48,7 +48,7 @@ var MeetingDetail = $(element).find('div')
         meeting.MeetingDetail = MeetingDetail;
 ```
 
-* * Weelchair
+  * Weelchair
 ```javascript
 var Wheelchair = $(element).find('span').text()
                 .trim()
@@ -56,7 +56,7 @@ var Wheelchair = $(element).find('span').text()
         meeting.Wheelchair = Wheelchair;
 ```
 
-* * Address
+  * Address
 ```javascript
 var Address = $(element).find('td')
                 .first().html().split("<br>")[2]
@@ -68,7 +68,7 @@ var Address = $(element).find('td')
             meeting.Address = Address;
 ```
 
-* * Address Detail
+  * Address Detail
 ```javascript
 var AddressDetail = $(element).find('td')
                 .first().html().split("<br>")[3]
@@ -77,7 +77,7 @@ var AddressDetail = $(element).find('td')
         meeting.AddressDetail = AddressDetail;
 ```
 
-* * For the <td> in the middle: Because I want to have flet structure as same as my table, so I need to assign each schedule to the same location and make it as multiple objets in my json. So the code looks like:
+  * For the <td> in the middle: Because I want to have flet structure as same as my table, so I need to assign each schedule to the same location and make it as multiple objets in my json. So the code looks like:
 ``` javascript
           var schedules = $(element).find('td')
                 .next().html().trim().replace(/(\r\n|\n|\r|\t)/gm, '').split("<br>");
