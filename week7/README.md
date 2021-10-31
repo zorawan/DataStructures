@@ -121,11 +121,10 @@ var AddressDetail = $(element).find('td')
 
 #### Step 4
 * Once I have all the meetings with all the combination in the json file, I use it with the week3 starter code to get geo location. To add latlong to the json, I tried to use async to parse th json then I used for loop to parse the meeting one by one. To make sure I won't lost orginal information, I create:
-              ```javascript
-              var entry = {};
-              ```
-              to store all the entries again:
-              ```javascript
+ ```javascript
+ var entry = {};
+```
+```javascript
               entry = {
             		    
             		    "Title" : d.Title,
@@ -142,7 +141,7 @@ var AddressDetail = $(element).find('td')
             		    "Latitude":tamuGeo["OutputGeocodes"][0]["OutputGeocode"]["Latitude"],
             		    "Longitude":tamuGeo["OutputGeocodes"][0]["OutputGeocode"]["Longitude"]
             		};
-              ```
+```
 #### Step 5
 * Once I have my new json file, I use the week4_b to run the file so I can write all the meeting into database.
 
